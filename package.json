@@ -2,6 +2,9 @@
   "name": "mp3converter",
   "version": "1.0.0",
   "description": "Convert from mp4 to mp3",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx webpack serve --config webpack.dev.js",
